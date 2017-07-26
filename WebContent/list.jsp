@@ -38,7 +38,7 @@
 			<td><a href="deleteform.jsp?id=<%=vo.getNo()%>">삭제</a></td>
 		</tr>
 		<tr>
-			<td colspan=4><%=vo.getContent() %></td>
+			<td colspan=4><%=vo.getContent().replace("\n", "<br/>") %></td>
 		</tr>
 	</table>
         <br/>
